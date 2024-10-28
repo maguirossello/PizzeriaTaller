@@ -20,7 +20,7 @@ class PizzaSchema(ma.SQLAlchemyAutoSchema):
         sqla_session = db.session
         include_fk = True
 
-
+#modelo cliente
 class Person(db.Model):
     __tablename__ = "person"
     id = db.Column(db.Integer, primary_key=True)
